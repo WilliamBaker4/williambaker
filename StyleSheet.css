@@ -12,13 +12,22 @@
 	font-size:0;
 }
 
+.glass_container{
+	margin: 50px;
+	padding: 30px 50px;
+	background-color: rgba(0, 0, 0, 0.2);
+	border-radius: 50px;
+	backdrop-filter: blur(120px);
+	border-top: 2px solid rgba(255, 255, 255, 0.4);
+	border-left: 2px solid rgba(255, 255, 255, 0.4);
+}
+
 .photo_gallery{
 	background-color:#15154D;
 	display:flex;
 	font-size:0;
 	gap:5px;
 }
-
 
 .photo_gallery_column{
 	background-color:#15154D;
